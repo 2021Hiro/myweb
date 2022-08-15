@@ -1,0 +1,21 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><html lang=\"zh-CN\">\r\n<head >\r\n    <title>40969519</title>\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\r\n</head>\r\n<body>\r\n<h1>用户中心</h1>\r\n<hr/>\r\n<h2>简介</h2>\r\n<p>中国基岩版MC生存服40969519，欢迎大家前来游玩!</p>\r\n<h2>管理员名单</h2>\r\n<ul>\r\n    <li>腐竹：电竞星宇</li>\r\n    <li>指令系统：下笔惊鸿</li>\r\n    <li>建筑设计：蛋总，主教sama，元宵，fangpian</li>\r\n</ul>\r\n<h2>自助菜单</h2>\r\n<ul>\r\n    <li><a href=\"https://guide.wmzspace.space\" target=\"_blank\">游玩指南</a></li>\r\n    <li><a href=\"https://photograph.wmzspace.space\" target=\"_blank\">玩家相册</a></li>\r\n    <li><a href=\"https://sponser.wmzspace.space\" target=\"_blank\">我要赞助</a></li>\r\n    <li><a href=\"https://group.wmzspace.space\" target=\"_blank\">加入群聊</a></li>\r\n</ul>\r\n<img src=\"image/0.jpg\" alt=\"\" height=\"300\" width=\"450\">\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 19cda26587bc9c63cd3bb169b7dfea64721a9aec)
++++ b/index.html	(date 1660551069961)
+@@ -16,7 +16,7 @@
+ </ul>
+ <h2>自助菜单</h2>
+ <ul>
+-    <li><a href="https://guide.wmzspace.space" target="_blank">游玩指南</a></li>
++    <li><a href="//html//guide.html" target="_blank">游玩指南</a></li>
+     <li><a href="https://photograph.wmzspace.space" target="_blank">玩家相册</a></li>
+     <li><a href="https://sponser.wmzspace.space" target="_blank">我要赞助</a></li>
+     <li><a href="https://group.wmzspace.space" target="_blank">加入群聊</a></li>
+diff --git a/html/guide.html b/html/guide.html
+new file mode 100644

@@ -1,0 +1,312 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><html lang=\"zh-CN\">\r\n<head >\r\n    <title>40969519</title>\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\r\n</head>\r\n<body>\r\n<h1>用户中心</h1>\r\n<hr/>\r\n<h2>简介</h2>\r\n<p>中国基岩版MC生存服40969519，玩法多多，欢迎大家前来游玩!</p>\r\n<h2>管理员名单</h2>\r\n<ul>\r\n    <li>腐竹：电竞星宇</li>\r\n    <li>指令系统：下笔惊鸿</li>\r\n    <li>建筑设计：蛋总，主教sama，元宵，fangpian</li>\r\n</ul>\r\n<h2>自助菜单</h2>\r\n<ul>\r\n    <li><a href=\"//file//官方游玩指南.docx\" target=\"_blank\">游玩指南</a></li>\r\n    <li><a href=\"https://photograph.wmzspace.space\" target=\"_blank\">玩家相册</a></li>\r\n    <li><a href=\"https://sponser.wmzspace.space\" target=\"_blank\">我要赞助</a></li>\r\n    <li><a href=\"https://group.wmzspace.space\" target=\"_blank\">加入群聊</a></li>\r\n</ul>\r\n<img src=\"image/0.jpg\" alt=\"\" height=\"300\" width=\"450\">\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 5a392f53284d20f580c321c206655496ad730bad)
++++ b/index.html	(date 1660662735276)
+@@ -1,13 +1,13 @@
+ <html lang="zh-CN">
+-<head >
++<head>
+     <title>40969519</title>
+     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+ </head>
+ <body>
+-<h1>用户中心</h1>
++<h1>用户中心 </h1>
+ <hr/>
+ <h2>简介</h2>
+-<p>中国基岩版MC生存服40969519，玩法多多，欢迎大家前来游玩!</p>
++<p>中国基岩版MC生存服40969519，玩法多多，欢迎大家游玩!</p>
+ <h2>管理员名单</h2>
+ <ul>
+     <li>腐竹：电竞星宇</li>
+@@ -16,11 +16,19 @@
+ </ul>
+ <h2>自助菜单</h2>
+ <ul>
+-    <li><a href="//file//官方游玩指南.docx" target="_blank">游玩指南</a></li>
+-    <li><a href="https://photograph.wmzspace.space" target="_blank">玩家相册</a></li>
+-    <li><a href="https://sponser.wmzspace.space" target="_blank">我要赞助</a></li>
+-    <li><a href="https://group.wmzspace.space" target="_blank">加入群聊</a></li>
++    <li><a href="file/官方游玩指南.docx">游玩指南</a></li>
++    <li><a href="image/photograph/photograph.html" target="_blank">玩家相册</a></li>
++    <li><a href="image/sponsor.png" target="_blank">我要赞助</a></li>
++    <li>
++        <a target="_blank"
++           href="image/group.png">
++        <img border="0" src="//pub.idqqimg.com/wpa/images/group.png" >
++        </a>
++    </li>
+ </ul>
+ <img src="image/0.jpg" alt="" height="300" width="450">
++
++<p>最后更新时间:8/15 17:12</p>
++
+ </body>
+-</html>
++</html>
+\ No newline at end of file
+Index: .idea/dictionaries/HelloWorld.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/dictionaries/HelloWorld.xml b/.idea/dictionaries/HelloWorld.xml
+new file mode 100644
+--- /dev/null	(date 1660662735323)
++++ b/.idea/dictionaries/HelloWorld.xml	(date 1660662735323)
+@@ -0,0 +1,8 @@
++<component name="ProjectDictionaryState">
++  <dictionary name="HelloWorld">
++    <words>
++      <w>fangpian</w>
++      <w>sama</w>
++    </words>
++  </dictionary>
++</component>
+\ No newline at end of file
+Index: .idea/inspectionProfiles/Project_Default.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/Project_Default.xml b/.idea/inspectionProfiles/Project_Default.xml
+new file mode 100644
+--- /dev/null	(date 1660662735339)
++++ b/.idea/inspectionProfiles/Project_Default.xml	(date 1660662735339)
+@@ -0,0 +1,31 @@
++<component name="InspectionProjectProfileManager">
++  <profile version="1.0">
++    <option name="myName" value="Project Default" />
++    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
++      <option name="myValues">
++        <value>
++          <list size="1">
++            <item index="0" class="java.lang.String" itemvalue="meta" />
++          </list>
++        </value>
++      </option>
++      <option name="myCustomValuesEnabled" value="true" />
++    </inspection_tool>
++    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
++      <option name="myValues">
++        <value>
++          <list size="7">
++            <item index="0" class="java.lang.String" itemvalue="nobr" />
++            <item index="1" class="java.lang.String" itemvalue="noembed" />
++            <item index="2" class="java.lang.String" itemvalue="comment" />
++            <item index="3" class="java.lang.String" itemvalue="noscript" />
++            <item index="4" class="java.lang.String" itemvalue="embed" />
++            <item index="5" class="java.lang.String" itemvalue="script" />
++            <item index="6" class="java.lang.String" itemvalue="head" />
++          </list>
++        </value>
++      </option>
++      <option name="myCustomValuesEnabled" value="true" />
++    </inspection_tool>
++  </profile>
++</component>
+\ No newline at end of file
+Index: .idea/php.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/php.xml b/.idea/php.xml
+new file mode 100644
+--- /dev/null	(date 1660662735349)
++++ b/.idea/php.xml	(date 1660662735349)
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1660662735356)
++++ b/.idea/vcs.xml	(date 1660662735356)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: html/group.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/html/group.html b/html/group.html
+new file mode 100644
+--- /dev/null	(date 1660662735364)
++++ b/html/group.html	(date 1660662735364)
+@@ -0,0 +1,10 @@
++<html>
++<head>
++    <title>
++        加入群聊
++    </title>
++</head>
++<body>
++<h1><a href="https://qm.qq.com/cgi-bin/qm/qr?k=MvhBfv09YSQSOQIB4Hy18rMclyJDLEhi&jump_from=webapi"></a></h1>
++</body>
++</html>
+\ No newline at end of file
+Index: html/guide.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/html/guide.html b/html/guide.html
+--- a/html/guide.html	(revision 5a392f53284d20f580c321c206655496ad730bad)
++++ b/html/guide.html	(date 1660662735332)
+@@ -1,0 +1,1 @@
++、
+\ No newline at end of file
+Index: .idea/myweb.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/myweb.iml b/.idea/myweb.iml
+new file mode 100644
+--- /dev/null	(date 1660662735283)
++++ b/.idea/myweb.iml	(date 1660662735283)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="WEB_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/temp" />
++      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
++      <excludeFolder url="file://$MODULE_DIR$/tmp" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1660662735292)
++++ b/.idea/.gitignore	(date 1660662735292)
+@@ -0,0 +1,5 @@
++# 默认忽略的文件
++/shelf/
++/workspace.xml
++# 基于编辑器的 HTTP 客户端请求
++/httpRequests/
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1660662735298)
++++ b/.idea/modules.xml	(date 1660662735298)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/myweb.iml" filepath="$PROJECT_DIR$/.idea/myweb.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: image/photograph/photograph.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/image/photograph/photograph.html b/image/photograph/photograph.html
+new file mode 100644
+--- /dev/null	(date 1660662735307)
++++ b/image/photograph/photograph.html	(date 1660662735307)
+@@ -0,0 +1,43 @@
++<html lang="zh-CN">
++<head>
++    <title>玩家相册</title>
++    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
++</head>
++<body>
++<img src="IMG.jpg" alt="">
++<img src="IMG_001.jpg" alt="">
++<img src="IMG_002.jpg" alt="">
++<img src="IMG_003.jpg" alt="">
++<img src="IMG_004.jpg" alt="">
++<img src="IMG_005.jpg" alt="">
++<img src="IMG_006.jpg" alt="">
++<img src="IMG_007.jpg" alt="">
++<img src="IMG_008.jpg" alt="">
++<img src="IMG_009.jpg" alt="">
++<img src="IMG_010.jpg" alt="">
++<img src="IMG_011.jpg" alt="">
++<img src="IMG_012.jpg" alt="">
++<img src="IMG_013.jpg" alt="">
++<img src="IMG_014.jpg" alt="">
++<img src="IMG_015.jpg" alt="">
++<img src="IMG_016.jpg" alt="">
++<img src="IMG_017.jpg" alt="">
++<img src="IMG_018.jpg" alt="">
++<img src="IMG_019.jpg" alt="">
++<img src="IMG_020.jpg" alt="">
++<img src="IMG_021.jpg" alt="">
++<img src="IMG_022.jpg" alt="">
++<img src="IMG_023.jpg" alt="">
++<img src="IMG_024.jpg" alt="">
++<img src="IMG_025.jpg" alt="">
++<img src="IMG_026.jpg" alt="">
++<img src="IMG_027.jpg" alt="">
++<img src="IMG_028.jpg" alt="">
++<img src="IMG_030.jpg" alt="">
++<img src="IMG_031.jpg" alt="">
++<img src="IMG_032.jpg" alt="">
++<img src="IMG_033.jpg" alt="">
++
++
++</body>
++</html>
+\ No newline at end of file
+Index: .idea/untitled.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/untitled.iml b/.idea/untitled.iml
+new file mode 100644
+--- /dev/null	(date 1660662735315)
++++ b/.idea/untitled.iml	(date 1660662735315)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="WEB_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/temp" />
++      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
++      <excludeFolder url="file://$MODULE_DIR$/tmp" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
